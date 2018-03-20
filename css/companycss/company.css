@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,700,900');
+
+body,
+body * {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	margin: 0;
+	color: #6A6161;
+}
+
+header .cancel img {
+	float: right;
+	margin-right: 60px;
+	margin-top: 30px;
+}
+
+.com-sign-up .com-sign {
+	max-width: 570px;
+	margin: 0 auto;
+	padding: 40px;
+	margin-top: -190px;
+	background-color: #fff;
+	box-shadow: 0 7px 17px 0 rgba(235, 233, 233, 0.50);
+}
+
+.com-sign-up .com-sign h2 {
+	font-size: 36px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	color: #0C7ACF;
+}
+
+.com-sign-up .com-sign p {
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.com-sign-up .com-sign .ui.form label {
+	padding-bottom: 5px;
+	color: #9C9B9B;
+	font-weight: 500;
+	font-size: 14spx;
+}
+
+.com-sign-up .com-sign .signss {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.job-posting .posting-area {
+	margin-top: -190px;
+}
+
+.job-posting .posting-area.edit {
+	margin-top: 40px;
+}
+
+
+.job-posting .posting-area h1 {
+	font-size: 36px;
+	padding-bottom: 20px;
+	font-weight: 300;
+}
+
+.job-posting .posting-area .dotted-container {
+	border-radius: 10px;
+	padding: 30px;
+	background: #fff;
+
+
+}
+
+.job-posting .posting-area .dotted-container img {
+	margin: 0 auto;
+}
+
+.file-browser {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.file-browser .btn.blue {
+	display: inline-block;
+	padding: 10px 18px;
+}
+
+.posting-grid {
+	padding-top: 60px;
+}
+
+.feld-section {
+	padding: 30px;
+	background: #fff;
+	border: 1px solid rgba(34, 36, 38, .15);
+	border-radius: .28571429rem;
+}
+
+.posting-btn {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: right;
+	display: block;
+}
+
+.posting-btn .btn.border {
+	border: 1px solid #0C7ACF;
+	outline: none;
+}
+
+.sar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px 0;
+}
+
+.sar .btn.blue {
+	padding: 1rem 3rem;
+}
+
+.sar .distance p {
+	font-weight: 700;
+	color: #68A515;
+	font-size: 16px;
+}
+
+.image.content .image img {
+	width: 670px;
+	margin-top: 10px;
+}
+
+.ui.modal .content .skills button {
+	padding-left: 10px;
+	padding-right: 10px;
+	/* padding-right: 5px; */
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 10p
+}
+
+table {
+	border: none !important;
+	padding: 20px;
+}
+
+.ui.table thead th {
+	cursor: auto;
+	background: #fff !important;
+	text-align: inherit;
+	color: #6A6161;
+	font-weight: 200;
+
+	padding: .92857143em .78571429em;
+	vertical-align: inherit;
+	font-style: none;
+	font-weight: 700;
+	text-transform: none;
+	border-bottom: none !important;
+	border-left: none;
+}
+
+.applied-column .ui.fixed.table tr {
+	vertical-align: top;
+
+}
+
+.applied-column .ui.table tr .post-date {
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+.dashboard .plus.icon {
+	float: right;
+	color: #fff;
+}
+
+.ui.selection.dropdown {
+	border: 1px solid rgba(34, 36, 38, .15);
+
+}
+
+tbody .ui.teal.buttons .button {
+	background-color: #0C7ACF;
+	color: #fff;
+	text-shadow: none;
+	background-image: none;
+}
+
+tbody .ui.teal.buttons .ellipsis.horizontal.icon {
+	color: #fff;
+}
+
+/*---------settings---------------*/
+
+.settings .settings-menu {
+	padding: 40px;
+	margin-top: 30px;
+}
+
+.settings .settings-menu .item {
+	margin-bottom: 10px;
+}
+
+.settings .settings-item {
+	padding: 30px;
+}
+
+.settings .settings-item h1 {
+	font-size: 26px;
+	padding-bottom: 10px;
+	font-weight: 300;
+}
+
+.settings .settings-item .settings-box {
+
+	background: #fff;
+	margin-bottom: 30px;
+	box-shadow: 0 7px 17px 0 rgba(235, 233, 233, 0.50);
+}
+
+.settings .settings-item .settings-box .settings-title {
+	padding: 20px;
+	background: #0C7ACF;
+	border-bottom: 1px solid #e0e0e0;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.settings .settings-item .settings-box .settings-title h2 {
+	color: #fff;
+	font-weight: 400;
+}
+
+.settings .settings-item .settings-box .settings-title h2 .edit.icon {
+	float: right;
+	color: #fff;
+}
+
+.settings .settings-item .settings-box .settings-title h2 .save.icon {
+	float: right;
+	color: #fff;
+}
+
+
+.settings .edit-settings {
+	display: flex;
+	padding: 10px;
+}
+
+.settings .ui.form {
+	flex: 1;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 30px;
+}
+
+.settings .cancel.icon {
+	color: #fff;
+}
+
+/*------billing information add------*/
+
+.settings .add-bill .ui.horizontal.list {
+	margin-top: 30px;
+	display: inline-flex;
+}
+
+.settings .add-bill .ui.horizontal.list .bill-con {
+	width: 300px;
+	height: 200px;
+	background: #fff;
+
+	padding: 30px;
+	box-shadow: 0 7px 17px 0 rgba(235, 233, 233, 0.50);
+	border-radius: 10px;
+}
+
+.settings .add-bill .ui.horizontal.list .bill-con.addy {
+	border-color: rgba(106, 97, 97, .6);
+
+}
+
+.settings .add-bill .ui.horizontal.list .bill-con.addy img {
+	margin: 0 auto;
+}
+
+.settings .add-bill .ui.horizontal.list .bill-con.addy h2 {
+	font-size: 20px;
+	padding-top: 20px;
+	font-weight: 500;
+	color: #0C7ACF;
+	text-align: center;
+}
+
+.settings .add-bill .ui.horizontal.list .payment-data {
+	padding-top: 15px;
+	font-size: 14px;
+}
+
+.settings .add-bill .ui.teal.buttons {
+	float: right;
+}
+
+.settings .add-bill .ui.teal.buttons .ui.floating.dropdown.icon {}
+
+.pback {
+	padding-bottom: 20px;
+}
+
+.ui.form .field > label {
+	display: block;
+	margin: 0 0 .28571429rem 0;
+	color: rgb(105, 96, 96);
+	font-size: .92857143em;
+	font-weight: 700;
+	text-transform: none;
+	font-weight: 10px;
+	font-weight: 500;
+	font-size: 14px
+}
+
+/*------------------------ Employeee search ------------------------------ */
+
+.search-prompt {
+	background: #E2E4E8;
+	margin-bottom: 10px;
+	padding: 20px;
+}
+
+.employee-section {
+	background: white;
+	box-shadow: 0 7px 17px 0 rgba(235, 233, 233, 0.50);
+	border-radius: 10px;
+}
+
+.employee-profile .ui.five.column.stackable.grid {
+	padding-top: 20px;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-bottom: 30px;
+
+}
+
+.employee-photo {
+	overflow: hidden;
+	position: relative;
+	border: 15px solid white;
+}
+.employee-photo img {
+	width: 100%;
+}
+.overlay-container {
+	display: none;
+}
+.overlay-container .btn.blue {
+padding: 15px 15px;
+	text-transform: capitalize;
+}
+.employee-photo:hover .overlay-container {
+	display: block;
+}
+.photo-overlay {
+	background: #1f3445bd;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.empl-details {
+	padding: 15px;
+}
+
+.empl-details h2,
+.empl-last {
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+
+.empl-details h2 span {
+	color: #0d79cf;
+}
+
+.empl-details .location-short {
+	text-transform: uppercase;
+}
+
+.employee-section .empl-skills {
+	padding-left: 15px;
+	padding-bottom: 30px;
+}
+
+.empl-skills .skill-counter {
+	background: #0d79cf;
+	color: #fff;
+}
+
+.empl-loaction {
+	padding-bottom: 10px;
+}
+
+.empl-details .ui.massive.rating {
+	float: right;
+	padding-top: 5px;
+}
+
+.ui.rating .active.icon {
+	background: 0 0;
+	color: rgb(255, 210, 77);
+	;
+}
+
+.employee-section .empl-skills .ui.button {
+	padding: 6px;
+}
+
+.search-prompt .prompt-image {
+	max-width: 50px;
+	max-height: 50px;
+	border-radius: 100%;
+	border: 4px solid #fff;
+}
+
+.search-prompt .ui.horizontal.list .item {
+	margin-left: -10px;
+}
+
+.search-prompt .prompt-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.search-prompt .prompt-result {
+	padding-left: 15px;
+}
+
+.search-prompt .prompt-result .prompt-job-number,
+.prompt-category {
+	font-weight: 700;
+}
+
+.empl-city {
+	display: flex;
+	align-items: center;
+}
+.empl-city p {
+	padding-left: 10px;
+}

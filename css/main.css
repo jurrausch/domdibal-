@@ -1,0 +1,509 @@
+body {
+	background-color: #F7F7F7;
+}
+
+.ui.secondary.pointing.menu .item {
+	font-weight: 300;
+	text-transform: uppercase;
+	position: relative;
+}
+.ui.secondary.pointing.menu .item:active {
+	border: none;
+}
+.ui.secondary.pointing.menu .active.item {
+	margin: 0;
+}
+
+.got-sms {
+	background: #0C7ACF;
+	border-radius: 100px;
+	color: white;
+	font-weight: 500;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin-top: -15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 14px;
+}
+
+.d-user {
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+}
+
+.user-circle.users {
+	background: url('../images/me.png') 50% no-repeat;
+	background-size: cover;
+	display: flex;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+	align-items: center;
+	justify-content: center;
+}
+
+.done-btn {
+	padding-right: 60px;
+}
+
+.btn.blue {
+	background-color: #0C7ACF;
+	color: #fff;
+}
+
+.user-shortcut {
+	margin-left: 10px;
+}
+
+.user-shortcut p {
+	color: white;
+}
+
+.user-name {
+	display: flex;
+}
+
+.d-user .user-name h4 {
+	padding: 0 10px;
+}
+
+.user-name .ui.dropdown .menu {
+	margin-top: 20px;
+	background: #FFFFFF;
+	box-shadow: 0 7px 17px 0 rgba(181, 170, 170, 0.50);
+	border-radius: 10px 0 0 0 10px 10px 10px;
+	border: none;
+	padding: 10px;
+}
+
+.user-name .header a {
+	padding: 10px 40px;
+	background: #ffffff;
+	color: #0C7ACF;
+	font-weight: 300;
+	text-transform: none;
+	border-radius: 10px;
+	border: 1px solid;
+}
+
+.user-name .header .online-btn {
+	background: #197DCC;
+	color: #fff;
+
+}
+
+.top-setting-menu .setting-cover {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 10px;
+}
+
+.top-setting-menu .setting-content {
+	border-bottom: 1px solid #EBEAEA;
+	flex: 1;
+	padding-bottom: 5px;
+}
+
+.job-section {
+	padding: 30px 90px;
+}
+
+.setting-content h3 {
+	color: #197DCC;
+	text-transform: none;
+}
+
+.setting-content h5 {
+	font-weight: 500;
+	text-transform: none;
+}
+
+.setting-content p {
+	font-size: 12px;
+	text-transform: none;
+}
+
+.bell {
+	color: #197DCC;
+	padding: 0 10px;
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+
+.bell.empt {
+	color: #ACA7A7;
+}
+
+/*---------job card-----------*/
+
+.jobs-list .ui.items .item {
+	background-color: #fff;
+	box-shadow: 0 7px 17px 0 rgba(235, 233, 233, 0.50);
+	padding: 20;
+}
+
+.jobs-list .ui.items .extra .job-search {
+	background: #FE7B04;
+	color: #fff;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-weight: 400;
+}
+
+.jobs-list .ui.items .extra .job-type {
+	background: #49D1CC;
+	padding-right: 15px;
+	padding-left: 15px;
+	color: #fff;
+	font-weight: 400
+}
+
+.jobs-list .ui.items .content .description p {
+	max-width: 550;
+	font-size: 14px;
+	text-align: justify;
+}
+
+.jobs-list .ui.items .content .header a {
+	color: #6A6161;
+	font-size: 24px;
+}
+
+.jobs-list .ui.items .extra .date {
+	font-size: 10px;
+
+}
+
+.jobs-list .ui.items .image-logo {
+	width: 175px;
+	height: 175px;
+	margin-right: 20px;
+	border-radius: 100%;
+}
+
+.jobs-list .ui.items .image-logo img {
+	margin: 0 auto;
+	margin-top: 80px;
+}
+
+.jobs-list .ui.rating .active.icon {
+	background: 0 0;
+	color: rgb(255, 210, 77);
+}
+
+.jobSearch-btn {
+	padding: 10px 27px;
+	border: noen;
+	border: none;
+	background: #0C7ACF;
+	color: #fff;
+	outline: none;
+	text-transform: uppercase;
+	border-radius: 5px;
+}
+
+.search-section {
+	background-color: #1f3445;
+	padding: 30px;
+}
+
+.search-section .ui.selection.dropdown .menu .item .job-counting {
+	float: right;
+	font-weight: 200;
+
+}
+.jobs-list .description  .skills .ui.button{
+	font-size: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+   padding-bottom: 5;
+	cursor: none:
+			
+}
+
+.search-section .ui.blue.label,
+.ui.blue.labels .label {
+	background-color: #49D1CC!important;
+	border-color: #49D1CC!important;
+	color: #fff!important;
+}
+
+.search-content .ui.input {
+	border-left: 10px solid #0C7ACF;
+}
+
+.search-content .ui.input.job-title {
+	border-color: #FC9D46;
+}
+
+.search-content .ui.input input {
+	border-radius: 0 5px 5px 0;
+}
+
+.ui.selection.dropdown {
+	border-left: 10px solid #49D1CC;
+}
+
+.job-section .ten.wide.column .jobs-list .sar .distance p {
+	font-weight: 700;
+	color: #68A515;
+	font-size: 16px;
+}
+.job-section .ten.wide.column .jobs-list .skills .ui.button  {
+	  padding-left: 10px;
+    padding-right: 10px;
+    /* padding-right: 5px; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 10px;
+
+}
+.job-section .ten.wide.column .jobs-list  .content .header {
+	color: #6A6161;
+}
+
+.jobs-list .ui.pagination.menu {
+	float: right;
+	border: none;
+}
+
+.jobs-list .ui.pagination.menu .active.item {
+	background: #0C7ACF;
+	color: #fff;
+}
+
+.sar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px 0;
+}
+
+.sar .btn.blue {
+	padding: 1rem 3rem;
+}
+
+.jobs-list .ui.items > .item .extra {
+	padding-top: 15px;
+}
+
+/*-------filter-------*/
+
+.job-section .filter-section .map-filer {
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.filter-section .map-filer img {
+	width: 100%;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.filter-section .dragbar {
+	background: rgb(255, 255, 255);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 10px;
+	padding-bottom: 20px;
+}
+
+.line-title {
+	text-transform: uppercase;
+	font-size: 12px;
+	padding-bottom: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.line-title .meter {
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+
+.dragbar .line {
+	display: block;
+	height: 1px;
+	background: #C0BABA;
+	border-radius: 4px;
+	position: relative;
+}
+
+.line .seek {
+	position: absolute;
+	left: 0;
+	background: #0C7ACF;
+	display: block;
+	height: 3px;
+	width: 40%;
+	top: 0;
+	border-radius: 8px;
+	margin-top: -2px;
+}
+
+.seek .bullet {
+	display: inline-block;
+	background: #0C7ACF;
+	width: 14px;
+	height: 15px;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-top: -5px;
+}
+
+.map-filer {
+	max-height: 300px;
+	overflow: hidden;
+}
+
+.bundesland {
+	background: #fff;
+	box-shadow: 0 7px 17px 0 rgba(235, 233, 233, 0.50);
+	margin-bottom: 50px;
+}
+
+.bundesland .bundes {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #0C7ACF;
+}
+
+.bundesland .bundes h2 {
+	font-size: 18px;
+	font-weight: 400;
+	padding-left: 20px;
+	color: #fff;
+}
+
+.bundesland .ui.items {
+	padding-left: 20px;
+	adding-bottom: 50px;
+}
+
+.bundesland .ui.items .ui.image img {
+	width: 70% !important;
+	margin: 0 auto !important;
+}
+
+
+.bundesland .ui.items .item .content {
+	padding-left: 1px !important;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.bundesland .ui.items .item .content .header {
+	font-size: 14px;
+	color: #6A6161;
+}
+
+.bundesland .ui.items .item .content .all-jobs {
+	font-size: 10px;
+	color: #49D1CC;
+}
+
+.arrow-section {
+	padding-right: 20px;
+}
+
+.arrow-section .ui.dropdown .menu {
+	width: 300px;
+	margin-left: -280px;
+}
+
+.arrow-section .ui.dropdown .menu > .item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/*-----------dashboard-------------*/
+
+.dashboard {
+	padding: 30px 90px;
+}
+
+.dashboard .applied-column {
+	border-radius: 10px;
+	background-color: #fff;
+	box-shadow: 0 7px 17px 0 rgba(235, 233, 233, 0.50);
+}
+
+.dashboard .favorite {
+	border-radius: 10px;
+	background-color: #fff;
+	box-shadow: 0 7px 17px 0 rgba(235, 233, 233, 0.50);
+}
+
+.dashboard .message {
+	border-radius: 10px;
+	background-color: #fff;
+	box-shadow: 0 7px 17px 0 rgba(235, 233, 233, 0.50);
+}
+
+.dashboard .dash-bg {
+	padding: 20px;
+	background-color: #0d79cf;
+	color: #fff;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.dashboard .dash-bg h2 {
+	font-weight: 500;
+	font-size: 16px;
+	color: #fff;
+}
+
+.dashboard .dash-bg.messages {
+	background-color: #49D1CC;
+}
+
+.dashboard .dash-bg.invitation {
+	background-color: #4AC694;
+}
+
+.dashboard .dash-bg.searches {
+	background-color: #DA0000;
+}
+
+.dashboard .dash-bg.favoriten {
+	background-color: #FE7B04;
+}
+
+.dashboard .dash-content {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+.dashboard .dash-content h3 {
+	font-size: 26px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: 400;
+}
+
+.dashboard .long.arrow.alternate.right.icon {
+	float: right;
+	color: #fff
+}
+
+/*-------------*/

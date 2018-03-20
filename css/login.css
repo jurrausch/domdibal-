@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,700,900');
+
+body,
+body * {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	margin: 0;
+	color: #6A6161;
+}
+
+body {
+	background-color: #FCFDFD;
+}
+
+header {
+	background: url(../images/sign-bg.jpg) 50% no-repeat;
+	background-size: 100% 100%;
+	height: 340px;
+	border-radius: 10px;
+}
+
+header .cancel {
+	float: right;
+	padding-right: 60px;
+	padding-top: 30px;
+}
+
+.register-section {
+	margin-top: -140px;
+}
+
+.happy-face img {
+	margin-top: -90px;
+	margin-bottom: -90px;
+}
+
+.register-content, .notification-content{
+	background-color: #fff;
+	box-shadow: 0 7px 17px 0 rgba(235, 233, 233, 0.50);
+	border-radius: 10px;
+}
+
+.logo img {
+	margin: 0 auto;
+	margin-bottom: 140px;
+}
+
+.register-inputs {
+	text-align: left;
+	padding-right: 50px;
+	padding-left: 50px;
+	text-align: center;
+}
+
+.register-inputs h2 {
+	font-size: 36px;
+	color: #0C7ACF;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.register-inputs p {
+	font-size: 12px;
+	max-width: 290px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+}
+
+.reg-inputs {
+	padding-top: 15px !important;
+	padding-bottom: 15px !important;
+	border-radius: 25px !important;
+	border: 1px solid rgba(151, 151, 151, .4) !important;
+
+}
+
+.register-content.sign-in {
+	max-width: 500px !important;
+	margin: 0 auto;
+}
+
+.register-content.sign-in .forgot {
+	text-align: right !important;
+	padding-top: 10px;
+	margin-right: 0;
+}
+
+.register-content .forgot a {
+	font-size: 12px;
+}
+.register-content.sign-in  .account {
+	margin: 20 auto;
+}
+.register-content  .account a {
+	 font-size: 12px;
+	color: #0C7ACF;
+	font-weight: 700;
+}
+.ui.form .submit-button {
+	border-radius: 20px;
+	padding-left: 90px;
+	padding-right: 90px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+	background-color: #0C7ACF;
+	text-transform: uppercase;
+}
+.not-bg {
+	background-color: #0C7ACF;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.ui.form .form-content {
+	   max-width: 370;
+    margin: 0 auto;
+}
+
+.not-bg img {
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.notification-content {
+	text-align: center
+}
+.notification-content h3 {
+	font-size: 36px;
+	font-weight: 200;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.notification-content p {
+	max-width: 300px;
+	margin: 0 auto;
+	font-size: 18px;
+	padding-bottom: 50px;
+}
+.notification-content p .email {
+	font-weight: 700;
+	color: #0c7acf;
+	line-height: 40px;
+}
+.btn {
+	padding: 1rem 5rem;
+	border-radius: 20px;
+	text-transform: uppercase;
+	color: #0C7ACF;
+}
+.btn.blue {
+	background-color: #0C7ACF;
+	color: #fff;
+}
+.up-content {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+/*-----------reset password-------------------*/
+.reset-section .cancel-img{
+	float: right;
+	margin-right: 60px;
+	margin-top:30px;
+}
+.reset-content {
+	text-align: center;
+	padding-top: 200px;
+}
+.reset-content img {
+	margin: 0 auto;
+}
+.reset-content  h2 {
+	font-size: 44px;
+	color: #0C7ACF;
+	padding:  20px 0 15px 0;
+	font-weight: 300;	
+}
+.reset-content  p {
+	padding-bottom:25px;
+}
+.reset-content .ui.left.icon.input {
+	width: 450px;
+	margin-top: 10px;
+
+}
+.reset-content .ui.left.icon.input input {
+	border-radius: 30px;
+	padding: 17px
+}
+.reset-content .reset-next{
+	margin-top: 40px;
+}
+.reset-content .submit-button {
+	padding-right: 70px;
+	padding-left: 70px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #0C7ACF;
+	border-radius: 30px;
+	color: #fff;
+	text-transform: uppercase;
+}
