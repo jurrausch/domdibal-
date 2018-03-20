@@ -346,7 +346,7 @@ tbody .ui.teal.buttons .ellipsis.horizontal.icon {
 .employee-photo {
 	overflow: hidden;
 	position: relative;
-	border: 15px solid white;
+	border: 14px solid white;
 }
 .employee-photo img {
 	width: 100%;
