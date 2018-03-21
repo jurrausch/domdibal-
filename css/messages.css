@@ -24,3 +24,15 @@
 	font-weight: 400;
 	cursor: pointer;
 }
+.ddb-message .ddb-message-container {
+	  max-width: 90%;
+    height: 85%;
+    background: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 7px 17px 0 rgba(235, 233, 233, 0.50);
+}
+.ddb-message .flex-message {
+	display: flex;
+}

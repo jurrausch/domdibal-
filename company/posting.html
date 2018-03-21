@@ -8,7 +8,7 @@
 	<link href="../core/semantic.min.css" rel="stylesheet" />
 	<link href="../css/cvs.css" rel="stylesheet" />
 
-		<link href="../css/companycss/company.css" rel="stylesheet" />
+	<link href="../css/companycss/company.css" rel="stylesheet" />
 	<!-- main CSS-->
 	<link href="css/slick.css" rel="stylesheet" />
 	<!-- Slick CSS-->
@@ -16,9 +16,9 @@
 
 <body>
 	<div class="success-not">
-			<img src="../images/cancel-1.png" class="ui cancel-not image" width="15">
-			<p>Your account has been successfully verified</p>	
-		</div>
+		<img src="../images/cancel-1.png" class="ui cancel-not image" width="15">
+		<p>Your account has been successfully verified</p>
+	</div>
 	<header>
 		<div class="ui secondary pointing menu">
 			<div class="left menu">
@@ -90,55 +90,92 @@
 										</div>
 									</div>
 									<!-- field -->
-									<div class="field">
-										<label>Um welche Anstellungsart handelt es sich?</label>
-										<span>Lorem ipsum dolor sit amet, consetetur </span>
-										<div class="ui fluid selection dropdown">
-											<input type="hidden" name="user">
-											<i class="dropdown icon"></i>
-											<div class="default text">Select Friend</div>
-											<div class="menu">
-												<div class="item" data-value="vollzeit">
-													Vollzeit
+									<div class="two fields">
+										<div class="field">
+											<label>Um welche Anstellungsart handelt es sich?</label>
+											<span>Lorem ipsum dolor sit amet, consetetur </span>
+											<div class="ui fluid selection dropdown">
+												<input type="hidden" name="user">
+												<i class="dropdown icon"></i>
+												<div class="default text">Select Friend</div>
+												<div class="menu">
+													<div class="item" data-value="vollzeit">
+														Vollzeit
+													</div>
+													<!-- vollzeit -->
+													<div class="item" data-value="teilzeit">
+														Teilzeit
+													</div>
+													<!-- Teilzeit -->
+													<div class="item" data-value="befristet">
+														Befristet
+													</div>
+													<!-- Befristetf-->
+													<div class="item" data-value="Werkvertrag">
+														Werkvertrag
+													</div>
+													<!-- Werkvertrag -->
+													<div class="item" data-value="Praktikum">
+														Praktikum
+													</div>
+													<!-- Praktikum -->
+													<div class="item" data-value="kommision">
+														Auf Kommision
+													</div>
+													<!--Auf Kommision-->
+													<div class="item" data-value="freima">
+														Freie Mitarbeiter
+													</div>
+													<!--  Freie Mitarbeiter-->
+													<div class="item" data-value="festanstellung">
+														Festanstellung
+													</div>
+													<!--Personal -->
+													<div class="item" data-value="ausbildung">
+														Ausbildung
+													</div>
 												</div>
-												<!-- vollzeit -->
-												<div class="item" data-value="teilzeit">
-													Teilzeit
-												</div>
-												<!-- Teilzeit -->
-												<div class="item" data-value="befristet">
-													Befristet
-												</div>
-												<!-- Befristetf-->
-												<div class="item" data-value="Werkvertrag">
-													Werkvertrag
-												</div>
-												<!-- Werkvertrag -->
-												<div class="item" data-value="Praktikum">
-													Praktikum
-												</div>
-												<!-- Praktikum -->
-												<div class="item" data-value="kommision">
-													Auf Kommision
-												</div>
-												<!--Auf Kommision-->
-												<div class="item" data-value="freima">
-													Freie Mitarbeiter
-												</div>
-												<!--  Freie Mitarbeiter-->
-												<div class="item" data-value="festanstellung">
-													Festanstellung
-												</div>
-												<!--Personal -->
-												<div class="item" data-value="ausbildung">
-													Ausbildung
-												</div>
+												<!-- Menu -->
 											</div>
-											<!-- Menu -->
+											<!-- selection dropdown-->
 										</div>
-										<!-- selection dropdown-->
+										<!-- field-->
+										<div class="field">
+											<label>Experience Level (optional)</label>
+													<span>Lorem ipsum dolor sit amet, consetetur </span>
+														<div class="ui fluid selection dropdown">
+												<input type="hidden" name="user">
+												<i class="dropdown icon"></i>
+												<div class="default text">Select Friend</div>
+												<div class="menu">
+													<div class="item" data-value="vollzeit">
+														Fundamental Awareness (basis knowledge)
+													</div>
+													<!-- Fundamental Awareness (basis knowledge) -->
+													<div class="item" data-value="teilzeit">
+														Novice (limited experience)
+													</div>
+													<!-- Novice (limited experience) -->
+													<div class="item" data-value="befristet">
+														Intermediate (practical application)
+													</div>
+													<!-- Intermediate (practical application)-->
+													<div class="item" data-value="Werkvertrag">
+														Advanced (applied theory)
+													</div>
+													<!-- Advanced (applied theory)-->
+													<div class="item" data-value="Praktikum">
+														Expert (recognized authority)
+													</div>
+													<!-- Expert (recognized authority)-->
+												</div>
+												<!-- Menu -->
+											</div>
+											<!-- selection dropdown-->
+										</div>
+										<!-- field -->
 									</div>
-									<!-- field-->
+									<!-- two field-->
 									<div class="field">
 										<label>Describe the work to be done</label>
 										<span>Lorem ipsum dolor sit amet, consetetur </span>
@@ -161,9 +198,9 @@
 									<div class="field">
 										<label>Enter skills needed</label>
 										<div class="ui right icon input">
-										<input type="text" name="skill" placeholder="Skill">
-										<i class="plus icon"></i>
-									</div>
+											<input type="text" name="skill" placeholder="Skill">
+											<i class="plus icon"></i>
+										</div>
 									</div>
 									<!--field -->
 									<div class="field">
@@ -334,9 +371,26 @@
 										<option value="sp">Spanish</option>
 										<option value="fre">French</option>
 										</select>
-
 									</div>
 									<!-- languages-->
+									<div class="field">
+										<div class="grouped fields">
+											<label>HOW WIL POEPPLE FIDN YOU JOBS?</label>
+											<div class="field">
+												<div class="ui radio checkbox">
+													<input type="radio" name="example2" checked="checked">
+													<label>Public - Everyone can find your job and apply to it.</label>
+												</div>
+											</div>
+											<div class="field">
+												<div class="ui radio checkbox">
+													<input type="radio" name="example2">
+													<label>Privately - Only people you invite</label>
+												</div>
+											</div>
+										</div>
+										<!-- grouped field-->
+									</div>
 								</form>
 								<!-- form-->
 								<div class="posting-btn">
@@ -350,12 +404,12 @@
 										</div>
 										<div class="image content">
 											<div class="image">
-										<img src="../images/job-icons/firmen-logo/job-5.png" width="120" class="ui image">
+												<img src="../images/job-icons/firmen-logo/job-5.png" width="120" class="ui image">
 											</div>
 											<div class="description">
 												<div class="ui items">
 													<div class="item">
-													
+
 														<div class="content">
 															<a class="header">Fachinformatiker/in - Anwendungsentwicklung (Fachinformatiker/in - Anwendungsentwicklung)</a>
 															<div class="meta">
