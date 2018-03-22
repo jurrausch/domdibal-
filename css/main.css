@@ -7,9 +7,11 @@ body {
 	text-transform: uppercase;
 	position: relative;
 }
+
 .ui.secondary.pointing.menu .item:active {
 	border: none;
 }
+
 .ui.secondary.pointing.menu .active.item {
 	margin: 0;
 }
@@ -221,14 +223,14 @@ body {
 	font-weight: 200;
 
 }
-.jobs-list .description  .skills .ui.button{
+
+.jobs-list .description .skills .ui.button {
 	font-size: 9px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-   padding-bottom: 5;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5;
 	cursor: none:
-			
 }
 
 .search-section .ui.blue.label,
@@ -259,16 +261,18 @@ body {
 	color: #68A515;
 	font-size: 16px;
 }
-.job-section .ten.wide.column .jobs-list .skills .ui.button  {
-	  padding-left: 10px;
-    padding-right: 10px;
-    /* padding-right: 5px; */
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 10px;
+
+.job-section .ten.wide.column .jobs-list .skills .ui.button {
+	padding-left: 10px;
+	padding-right: 10px;
+	/* padding-right: 5px; */
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 10px;
 
 }
-.job-section .ten.wide.column .jobs-list  .content .header {
+
+.job-section .ten.wide.column .jobs-list .content .header {
 	color: #6A6161;
 }
 
@@ -506,4 +510,84 @@ body {
 	color: #fff
 }
 
-/*-------------*/
+/*----job details---------*/
+
+.ddb-job-description {
+	height: 1905px;
+	background: #fff;
+	margin-left: 30px;
+	border-radius: 10px;
+	box-shadow: 0 7px 17px 0 rgba(235, 233, 233, 0.50);
+	margin-bottom: 30px
+}
+
+.job-details .job-container {
+	height: 600px;
+	background: url('../images/backgrounds/job-details-bg.png') 50% no-repeat;
+	background-size: 100% 100%;
+}
+.job-details .job-container .ui.item {
+	padding: 30px;
+}
+.job-details .job-container .ui.item .content .header {
+	font-size: 36px;
+	max-width: 480px;
+	color: #fff;
+}
+.job-details .job-container .ui.item .content .description p {
+	color: #fff;
+	max-width: 700px;
+	font-weight: 200;
+} 
+
+.ddb-job-contact {
+	margin-right: 30px;
+	box-shadow: 0 7px 17px 0 rgba(235, 233, 233, 0.50);
+	margin-bottom: 30px;
+	border-radius: 10px;
+	background: #fff;
+}
+
+.ddb-job-contact.other {
+	height: 900px;
+}
+.ddb-job-contact .job-header {
+	padding: 15px;
+	background: #FE7B04;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.ddb-job-contact .job-header h2 {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.ddb-job-contact .job-header.dist {
+	background: #49D1CC;
+}
+.ddb-job-contact .job-header.other {
+	background: #0C7ACF;
+
+}
+.ddb-job-contact .contact-sect {
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.ddb-job-contact .contact-sect p {
+	font-size: 18px;
+	padding-bottom: 5px;
+}
+.ddb-job-contact .contact-sect .ddb-company-name {
+	font-weight: 500;
+	font-size: 22px;
+}
+.ddb-job-contact .ui.left.icon {
+	padding-left: 20px;
+	padding-bottom: 40px;
+}
+.ddb-job-contact .ui.left.icon p {
+	padding-bottom: 5px;
+}
