@@ -28,4 +28,3 @@ $(".bill-con.addy").click(function() {
 	$('.ui.modal').modal('show');
 });
 
-

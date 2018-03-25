@@ -466,7 +466,7 @@ tbody .ui.teal.buttons .ellipsis.horizontal.icon {
 	    display: none;
     position: fixed;
     z-index: 1001;
-    top: 50%;
+    top: 40%;
     left: 60%;
     text-align: left;
     background: #fff;
@@ -498,7 +498,7 @@ tbody .ui.teal.buttons .ellipsis.horizontal.icon {
 	padding-bottom: 20px;
 }
 .ui.payment_modal.modal .ui.form .btn.blue{
-	text-transform: uppercase;
+	text-transform: capitalize;
 	padding: 10px 25px;
 	border-radius: 5px;
 }
@@ -537,4 +537,25 @@ tbody .ui.teal.buttons .ellipsis.horizontal.icon {
     user-select: none;
     will-change: opacity;
     z-index: 1000;
+}
+.ui.modal .pay_with_p {
+	  padding: 10px 20px;
+    background: #f3f3f378;
+	margin-top: 10px;
+}
+.ui.modal .pay_with_p .paypal-content {
+	margin-bottom: 15px;
+	display: none;
+
+}
+.ui.modal .pay_with_p .paypal-content p {
+	padding-bottom: 20px;
+}
+.ui.modal .pay_with_p .paypal-content .btn.blue {
+	text-transform: capitalize;
+}
+.ui.modal .pay_with_p .paypal-content .btn.blue .big-paypal {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
 }
