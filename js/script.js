@@ -23,6 +23,9 @@ $('.del-modal').modal({
 });
 
 
-
+// Open Overlay add payment
+$(".bill-con.addy").click(function() {
+	$('.ui.modal').modal('show');
+});
 
 

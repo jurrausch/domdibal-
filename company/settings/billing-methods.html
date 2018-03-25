@@ -121,21 +121,21 @@
 								</div>
 							</a>
 							<div class="item">
-								<i class="marker icon"></i>
+								<i class="credit card icon"></i>
 								<div class="content">
 									Billing Methods
 								</div>
 							</div>
 							<div class="item">
-								<i class="mail icon"></i>
+								<i class="key icon"></i>
 								<div class="content">
 									<a href="security.html">Password & Security</a>
 								</div>
 							</div>
 							<div class="item">
-								<i class="linkify icon"></i>
+								<i class="bullhorn icon"></i>
 								<div class="content">
-									<a href="http://www.semantic-ui.com">Notification</a>
+									<a href="">Notification</a>
 								</div>
 							</div>
 						</div>
@@ -150,13 +150,126 @@
 						<div class="billing-information">
 							<div class="add-bill">
 								<div class="ui horizontal list">
-									<a href="" class="item add-payment-methode">
+									<a class="item add-payment-methode">
 										<div class="bill-con addy">
 											<img src="../../images/homeImage/credit-card.png" width="60" class="ui image">
 											<h2>Add Payment Method</h2>
 										</div>
 										<!-- addy :) -->
 									</a>
+									<div class="add-payment-modal">
+										<div class="ui payment_modal modal">
+											<i class="close icon"></i>
+											<div class="header">
+												<h2>Add a Billing method</h2>
+											</div>
+											<!--modal header -->
+											<div class="description">
+												<div class="payment-description">
+													<div class="ui radio checkbox">
+														<input type="radio" name="radio" checked="checked">
+														<label>Credit or Debit Card</label>
+													</div>
+													<!-- Radio button choice -->
+													<form class="ui form">
+														<div class="field">
+														<img src="../../images/p-methode.png" class="ui image" width="190">
+															<label>Card number</label>
+															<div class="ui left icon input">
+																<input type="text">
+																<i class="credit card outline icon"></i>
+															</div>
+														</div>
+														<!--enter card field -->
+														<div class="two fields">
+															<div class="field">
+																<label>First name</label>
+																<div class="ui left icon input">
+																	<input type="text" name="firstname" value="Junior">
+																	<i class="user icon"></i>
+																</div>
+															</div>
+															<!-- field -->
+															<div class="field">
+																<label>Last name</label>
+																<div class="ui left icon input">
+																	<input type="text" name="firstname" value="Rausch">
+																	<i class="user outline icon"></i>
+																</div>
+															</div>
+															<!-- field -->
+														</div>
+														<!-- two fields-->
+														<div class="fields">
+															<div class="six wide field">
+																<label>Expires on</label>
+																<div class="two fields">
+																	<div class="field">
+																		<select class="ui fluid search dropdown" name="card[expire-month]">
+																		<option value="">MM</option>
+																		<option value="1">1</option>
+																		<option value="2">2</option>
+																		<option value="3">3</option>
+																		<option value="4">4</option>
+																		<option value="5">5</option>
+																		<option value="6">6</option>
+																		<option value="7">7</option>
+																		<option value="8">8</option>
+																		<option value="9">9</option>
+																		<option value="10">10</option>
+																		<option value="11">11</option>
+																		<option value="12">12</option>
+																		<option value="9">September</option>
+																		<option value="10">October</option>
+																		<option value="11">November</option>
+																		<option value="12">December</option>
+																	</select>
+																			</div>
+																	<div class="field">
+																						<select class="ui fluid search dropdown" name="card[expire-month]">
+																					<option value="">YY</option>
+																					<option value="1">18</option>
+																					<option value="2">19</option>
+																					<option value="3">20</option>
+																					<option value="4">21</option>
+																					<option value="5">22</option>
+																					<option value="6">23</option>
+																					<option value="7">24</option>
+																					<option value="8">25</option>
+																					<option value="9">26</option>
+																					<option value="10">27</option>
+																					<option value="11">28</option>
+																					<option value="12">29</option>
+																					<option value="9">September</option>
+																					<option value="10">October</option>
+																					<option value="11">November</option>
+																					<option value="12">December</option>
+																				</select>
+																	</div>
+
+																</div>
+																<!-- fields-->
+															</div>
+															<!-- six wide field-->
+															<div class="ten wide field">
+																<label>Security code / CVV<span class="quest">?</span><label>
+																<input type="text" name="cvv">
+															</div>
+															<!-- ten wide field-->
+														</div>
+														<!-- fields-->
+														<div class="continue-payment">
+															<a class="btn blue"> Continue</a>
+														</div>
+													</form>
+													<!-- payment form -->
+												</div>
+											</div>
+											<!-- payment description -->
+										</div>
+										<!-- ui modal -->
+									</div>
+
 									<!-- item-->
 									<a href="" class="item">
 										<div class="bill-con">
@@ -192,13 +305,6 @@
 		<!-- settings container-->
 	</div>
 	<!-- settings-->
-
-
-
-
-
-
-
 
 
 

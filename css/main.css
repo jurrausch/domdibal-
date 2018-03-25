@@ -226,10 +226,7 @@ body {
 
 .jobs-list .description .skills .ui.button {
 	font-size: 9px;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 5px;
-	padding-bottom: 5;
+	padding-left: 5px 10px;
 	cursor: none:
 }
 
@@ -265,10 +262,10 @@ body {
 .job-section .ten.wide.column .jobs-list .skills .ui.button {
 	padding-left: 10px;
 	padding-right: 10px;
-	/* padding-right: 5px; */
 	padding-top: 5px;
 	padding-bottom: 5px;
-	font-size: 10px;
+	font-size: 8px;
+
 
 }
 
