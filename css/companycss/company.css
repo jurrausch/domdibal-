@@ -278,7 +278,14 @@ tbody .ui.teal.buttons .ellipsis.horizontal.icon {
 	box-shadow: 0 7px 17px 0 rgba(235, 233, 233, 0.50);
 	border-radius: 10px;
 }
-
+.settings .add-bill  .bill-con .payment-status {
+margin-top: 80px;
+}
+.settings .add-bill  .bill-con .payment-status i {
+	font-size: 14px;
+	color: #47d1cc;
+	font-weight: 700;
+}
 .settings .add-bill .ui.horizontal.list .bill-con.addy {
 	border-color: rgba(106, 97, 97, .6);
 
