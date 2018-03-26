@@ -190,10 +190,11 @@ Resume Editor
 
 .ui.vertical.tabular.menu .active.item {
 	background: transparent;
-	color: rgba(0, 0, 0, .95);
+	color: rgb(13, 121, 207);
 	border-color: #d4d4d5;
 	margin: 0 -1px 0 0;
 	border-radius: .28571429rem 0 0 .28571429rem!important;
+	font-weight: 700;
 }
 
 .tab-container .ui.tab {

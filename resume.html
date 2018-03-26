@@ -77,6 +77,7 @@
 											<a class="item" data-tab="certificates">	<img src="images/add_icons/quality.png" width="20" class="ui image">Certificates</a>
 											<a class="item" data-tab="education">	<img src="images/add_icons/college-graduation.png" width="20" class="ui image">Education</a>
 											<a class="item" data-tab="courses">	<img src="images/add_icons/translate.png" width="20" class="ui image">Courses</a>
+											<a class="item" data-tab="experiences">	<img src="images/add_icons/briefcase.png" width="20" class="ui image">Experiences</a>
 											<a class="item" data-tab="publication">	<img src="images/add_icons/open-book.png"d width="20" class="ui image">Publication</a>
 											<a class="item" data-tab="references">	<img src="images/add_icons/summary.png" width="20" class="ui image">References</a>
 											<a class="item" data-tab="software">	<img src="images/add_icons/desktop-monitor.png" width="20" class="ui image">Software</a>
@@ -571,9 +572,9 @@
 													<p class="tipps">If you have acquired any certificates, be sure to include them in this section. They are a great way to build trust in your resume.</p>
 													<div class="field">
 														<label>Title</label>
-														<div class="ui right icon input">
+														<div class="ui left icon input">
 															<input type="text" name="skills" placeholder="Enter your certifcaate here">
-															<i class="plus icon"></i>
+															<i class="certificate icon"></i>
 														</div>
 													</div>
 													<!-- field -->
@@ -656,7 +657,7 @@
 															<div class="field">
 																<label>From</label>
 																<div class="ui left icon input">
-																	<input type="text" name="date" placeholder="MM">
+																	<input type="text" name="date" placeholder="MM / YY">
 																	<i class="calendar icon"></i>
 																</div>
 															</div>
@@ -664,7 +665,7 @@
 															<div class="field">
 																<label>To</label>
 																<div class="ui left icon input">
-																	<input type="text" name="date" placeholder="YY">
+																	<input type="text" name="date" placeholder="MM / YY">
 																	<i class="calendar icon"></i>
 																</div>
 																<div class="ui toggle checkbox">
@@ -692,6 +693,348 @@
 											<!--education section -->
 										</div>
 										<!-- education tab-->
+										<div class="ui tab" data-tab="courses">
+											<div class="courses-section">
+												<form class="ui form">
+													<h4 class="ui dividing header">Courses</h4>
+													<p class="tipps">Courses show that you have the knowledge to do the job. You can add them in this section.</p>
+													<div class="field">
+														<label>Course name</label>
+														<div class="ui left icon input">
+															<input type="text" name="skills" placeholder="Course name here">
+															<i class="student icon"></i>
+														</div>
+													</div>
+													<!-- field -->
+													<div class="field">
+														<div class="two fields">
+															<div class="field">
+																<label>From</label>
+																<div class="ui left icon input">
+																	<input type="text" name="date" placeholder="MM / YY">
+																	<i class="calendar icon"></i>
+																</div>
+															</div>
+															<!--field -->
+															<div class="field">
+																<label>To</label>
+																<div class="ui left icon input">
+																	<input type="text" name="date" placeholder="MM / YY">
+																	<i class="calendar icon"></i>
+																</div>
+																<div class="ui toggle checkbox">
+																	<input type="checkbox" name="public">
+																	<label>till today</label>
+																</div>
+															</div>
+															<!--field -->
+														</div>
+														<!-- two field-->
+													</div>
+													<!-- field-->
+													<div class="field">
+														<label>Description</label>
+														<textarea></textarea>
+													</div>
+													<!-- field -->
+												</form>
+												<!--ui form -->
+												<div class="add-btn">
+													<a class="add-to-resume">Add to Resume</a>
+												</div>
+												<!--add new section button -->
+
+											</div>
+											<!-- courses-section-->
+										</div>
+										<!-- courses tab-->
+										<div class="ui tab" data-tab="experiences">
+											<div class="experiences-section">
+												<form class="ui form">
+													<h4 class="ui dividing header">Experiences</h4>
+													<p class="tipps">List your work experience, add different positions you held and describe your responsibilites. Don't forget to highlight your biggest achievements!</p>
+													<div class="field">
+														<label>Company name</label>
+														<div class="ui left icon input">
+															<input type="text" name="skills" placeholder="Company name here">
+															<i class="building icon"></i>
+														</div>
+													</div>
+													<!-- field -->
+													<div class="field">
+														<div class="two fields">
+															<div class="ten wide field">
+																<label>Location</label>
+																<div class="ui left icon input">
+																	<input type="email" name="firstname" placeholder="compnay adress">
+																	<i class="marker icon"></i>
+																</div>
+																<!-- left icon  -->
+															</div>
+															<!--field -->
+															<div class="six wide field">
+																<label>City</label>
+																<div class="ui left icon input">
+																	<input type="text" name="lastname" placeholder="eg. Berlin">
+																	<i class="place icon"></i>
+																</div>
+																<!--left icon -->
+															</div>
+															<!-- field-->
+														</div>
+														<!-- two field-->
+													</div>
+													<div class="field">
+														<div class="two fields">
+															<div class="field">
+																<label>From</label>
+																<div class="ui left icon input">
+																	<input type="text" name="date" placeholder="MM / YY">
+																	<i class="calendar icon"></i>
+																</div>
+															</div>
+															<!--field -->
+															<div class="field">
+																<label>To</label>
+																<div class="ui left icon input">
+																	<input type="text" name="date" placeholder="MM / YY">
+																	<i class="calendar icon"></i>
+																</div>
+																<div class="ui toggle checkbox">
+																	<input type="checkbox" name="public">
+																	<label>till today</label>
+																</div>
+															</div>
+															<!--field -->
+														</div>
+														<!-- two field-->
+													</div>
+													<!-- field-->
+													<div class="field">
+														<label>Description</label>
+														<textarea></textarea>
+													</div>
+													<!-- field -->
+												</form>
+												<!--ui form -->
+												<div class="add-btn">
+													<a class="add-to-resume">Add to Resume</a>
+												</div>
+												<!--add new section button -->
+
+											</div>
+											<!--experiences section -->
+										</div>
+										<!-- experiences tab-->
+										<div class="ui tab" data-tab="publication">
+											<div class="publication-section">
+												<form class="ui form">
+													<h4 class="ui dividing header">Publication</h4>
+													<p class="tipps">Do you write about your work? Or maybe your research was published? If yes, mention them here.</p>
+													<div class="field">
+														<label>Title</label>
+														<div class="ui left icon input">
+															<input type="text" name="skills" placeholder="Enter your publication Title here">
+															<i class="book icon"></i>
+														</div>
+													</div>
+													<!-- field -->
+													<div class="field">
+														<label>Date</label>
+														<div class="two fields">
+
+															<div class="field">
+																<div class="ui left icon input">
+																	<input type="text" name="date" placeholder="MM">
+																	<i class="calendar icon"></i>
+																</div>
+															</div>
+															<!--field -->
+															<div class="field">
+
+																<div class="ui left icon input">
+																	<input type="text" name="date" placeholder="YY">
+																	<i class="calendar"></i>
+																</div>
+															</div>
+															<!--field -->
+														</div>
+														<!-- two field-->
+													</div>
+													<!-- field-->
+													<div class="field">
+														<label>Description (Optional)</label>
+														<textarea></textarea>
+													</div>
+													<!-- field -->
+												</form>
+												<!--ui form -->
+												<div class="add-btn">
+													<a class="add-to-resume">Add to Resume</a>
+												</div>
+												<!--add new section button -->
+											</div>
+											<!-- publication section-->
+										</div>
+										<!--publication  tab -->
+										<div class="ui tab" data-tab="references">
+											<div class="references-section">
+												<form class="ui form">
+													<h4 class="ui dividing header">References</h4>
+													<p class="tipps">References are a great way to build trust in your resume. You can include them in this section.</p>
+													<div class="field">
+														<label>Title</label>
+														<div class="ui left icon input">
+															<input type="text" name="skills" placeholder="Enter your publication Title here">
+															<i class="book icon"></i>
+														</div>
+													</div>
+													<!-- field -->
+													<div class="field">
+														<label>Description (Optional)</label>
+														<textarea></textarea>
+													</div>
+													<!-- field -->
+												</form>
+												<!--ui form -->
+												<div class="add-btn">
+													<a class="add-to-resume">Add to Resume</a>
+												</div>
+												<!--add new section button -->
+											</div>
+											<!-- references section-->
+										</div>
+										<!--references tab -->
+										<div class="ui tab" data-tab="software">
+											<div class="software-section">
+												<form class="ui form">
+													<h4 class="ui dividing header">Software</h4>
+													<p class="tipps">Knowledge of advanced software is key in some work areas. You can add software and programming languages to this section</p>
+													<div class="field">
+														<label>Program</label>
+														<div class="ui right icon input">
+															<input type="text" name="skills" placeholder="Enter your softwaer skills here">
+															<i class="plus icon"></i>
+														</div>
+													</div>
+													<!-- field -->
+													<div class="field">
+														<textarea placeholder=""></textarea>
+													</div>
+												</form>
+												<!--ui form -->
+												<div class="add-btn">
+													<a class="add-to-resume">Add to Resume</a>
+												</div>
+												<!--add new section button -->
+											</div>
+											<!--software section -->
+										</div>
+										<!-- software tab -->
+										<div class="ui tab" data-tab="licenses">
+											<div class="licenses-section">
+												<form class="ui form">
+													<h4 class="ui dividing header">Licenses</h4>
+													<p class="tipps">
+														Does your job require you to have any licenses? If so don't forget to add them here.</p>
+													<div class="field">
+														<label>Title</label>
+														<div class="ui left icon input">
+															<input type="text" name="skills" placeholder="Enter your licenses here">
+															<i class="certificate icon"></i>
+														</div>
+													</div>
+													<!-- field -->
+													<div class="field">
+														<label>Date</label>
+														<div class="two fields">
+
+															<div class="field">
+																<div class="ui left icon input">
+																	<input type="text" name="date" placeholder="MM">
+																	<i class="calendar icon"></i>
+																</div>
+															</div>
+															<!--field -->
+															<div class="field">
+
+																<div class="ui left icon input">
+																	<input type="text" name="date" placeholder="YY">
+																	<i class="calendar"></i>
+																</div>
+															</div>
+															<!--field -->
+														</div>
+														<!-- two field-->
+													</div>
+													<!-- field-->
+													<div class="field">
+														<label>Description (Optional)</label>
+														<textarea></textarea>
+													</div>
+													<!-- field -->
+												</form>
+												<!--ui form -->
+												<div class="add-btn">
+													<a class="add-to-resume">Add to Resume</a>
+												</div>
+												<!--add new section button -->
+											</div>
+											<!--licenses sectio -->
+										</div>
+										<!-- licenses tab -->
+										<div class="ui tab" data-tab="conferences">
+											<div class="conferences-section">
+																						<form class="ui form">
+													<h4 class="ui dividing header">Conferences</h4>
+													<p class="tipps">
+														Attending conferences can show that you are interested in your niche. Be sure to include any major conferences you have attended.</p>
+													<div class="field">
+														<label>Title</label>
+														<div class="ui left icon input">
+															<input type="text" name="skills" placeholder="Enter your licenses here">
+															<i class="certificate icon"></i>
+														</div>
+													</div>
+													<!-- field -->
+													<div class="field">
+														<label>Date</label>
+														<div class="two fields">
+
+															<div class="field">
+																<div class="ui left icon input">
+																	<input type="text" name="date" placeholder="MM">
+																	<i class="calendar icon"></i>
+																</div>
+															</div>
+															<!--field -->
+															<div class="field">
+
+																<div class="ui left icon input">
+																	<input type="text" name="date" placeholder="YY">
+																	<i class="calendar"></i>
+																</div>
+															</div>
+															<!--field -->
+														</div>
+														<!-- two field-->
+													</div>
+													<!-- field-->
+													<div class="field">
+														<label>Description (Optional)</label>
+														<textarea></textarea>
+													</div>
+													<!-- field -->
+												</form>
+												<!--ui form -->
+												<div class="add-btn">
+													<a class="add-to-resume">Add to Resume</a>
+												</div>
+												<!--add new section button -->
+											</div>
+											<!-- conferences section-->
+										</div>
+										<!--conferences tab -->
 									</div>
 									<!-- tab container -->
 								</div>
