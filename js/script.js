@@ -28,3 +28,12 @@ $(".bill-con.addy").click(function() {
 	$('.ui.modal').modal('show');
 });
 
+// add new section CV editor
+$(".add-sect.new").click(function() {
+	$('.ui.new_section.modal').modal('show');
+});
+
+//tab menu
+$('.menu .item')
+  .tab()
+;

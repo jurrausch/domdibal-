@@ -19,7 +19,7 @@ header {
 	background: #fff;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	    box-shadow: 0 7px 17px 0 rgba(235, 233, 233, 0.50);
+	box-shadow: 0 7px 17px 0 rgba(235, 233, 233, 0.50);
 }
 
 header .ui.secondary.pointing.menu {
@@ -130,6 +130,23 @@ header .ui.secondary.pointing.menu {
 	color: #fff;
 }
 
+.ui.new_section.modal {
+	top: 40%;
+	left: 50%;
+
+}
+
+.ui.new_section.modal .header.title {
+	padding: 20px;
+	background: #0C7ACF;
+
+}
+
+.ui.new_section.modal .header h2 {
+	font-size: 30px;
+	color: #fff;
+	font-weight: 400;
+}
 
 /**
 
@@ -143,7 +160,82 @@ Resume Editor
 	box-shadow: 0 7px 17px 0 rgba(235, 233, 233, 0.50);
 	border-radius: 10px;
 	margin-top: 20px;
+}
 
+.left-description {
+	display: flex;
+}
+
+.tab-container {
+	padding: 10px;
+}
+
+.left-description .ui.vertical.tabular.menu {
+	border: none;
+	background: #f5f5f5;
+	padding: 10px;
+	margin-bottom: 0;
+}
+
+.left-description .ui.vertical.tabular.menu .tab-menu .item img {
+	float: left;
+	margin-right: 15px;
+}
+
+.ui.vertical.tabular.menu .item {
+	border: none;
+	box-shadow: none;
+	padding-bottom: 20px;
+}
+
+.ui.vertical.tabular.menu .active.item {
+	background: transparent;
+	color: rgba(0, 0, 0, .95);
+	border-color: #d4d4d5;
+	margin: 0 -1px 0 0;
+	border-radius: .28571429rem 0 0 .28571429rem!important;
+}
+
+.tab-container .ui.tab {
+	width: 700px;
+}
+
+.tab-container .ui.form {
+	padding: 20px 20px 5px 20px;
+}
+
+.tab-container .ui.form h4 {
+	font-size: 26px;
+	padding-bottom: 10px;
+}
+
+.tab-container .ui.form input {
+	background: #d6d6d61c;
+}
+
+.tab-container .add-btn {
+	padding: 20px;
+}
+
+.tab-container .add-btn .add-to-resume {
+	padding: 15px;
+	border-radius: 5px;
+	color: #fff;
+	background: #0C7ACF;
+	cursor: pointer;
+}
+
+.tab-container .tipps {
+	background: #0C7ACF;
+	color: #fff;
+	padding: 15px;
+	border-radius: 5px;
+	border-left: 5px solid #FE7B04;
+	font-weight: 300;
+}
+.tab-container .ui.toggle.checkbox {
+	float: right;
+	margin-top: 15px;
 }
 
 /* Color Selector start here */
@@ -248,13 +340,13 @@ Resume Editor
 .sat_rect .white {
 	background: -webkit-linear-gradient(left, #fff, rgba(204, 154, 129, 0));
 	background: linear-gradient(to right, #fff, rgba(204, 154, 129, 0));
-	    border-radius: 10px;
+	border-radius: 10px;
 }
 
 .sat_rect .black {
 	background: -webkit-linear-gradient(bottom, #000, rgba(204, 154, 129, 0));
 	background: linear-gradient(to top, #000, rgba(204, 154, 129, 0));
-	    border-radius: 10px;
+	border-radius: 10px;
 }
 
 .bottom {
@@ -303,44 +395,55 @@ Resume Editor
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 }
+
 .resume-body .resume-settings .item.lato {
 	font-family: 'Lato', sans-serif;
-		font-size: 14px;
+	font-size: 14px;
 }
+
 .resume-body .resume-settings .item.rozha {
 	font-family: 'Rozha One', serif;
-		font-size: 14px;
+	font-size: 14px;
 }
+
 .resume-body .resume-settings .item.lora {
 	font-family: 'Lora', serif;
-		font-size: 14px;
+	font-size: 14px;
 }
+
 .resume-body .resume-settings .item.playfair {
 	font-family: 'Playfair Display', serif;
-		font-size: 14px;
+	font-size: 14px;
 }
+
 .resume-body .resume-settings .item.nunito {
 	font-family: 'Nunito', sans-serif;
-		font-size: 14px;
+	font-size: 14px;
 }
+
 .resume-body .resume-settings .item.indie {
-font-family: 'Indie Flower', cursive;
-		font-size: 14px;
+	font-family: 'Indie Flower', cursive;
+	font-size: 14px;
 }
+
 .resume-body .resume-settings .item.cabin {
-font-family: 'Cabin', sans-serif;
-		font-size: 14px;
+	font-family: 'Cabin', sans-serif;
+	font-size: 14px;
 }
+
 .resume-body .resume-settings .item.quick {
-font-family: 'Quicksand', sans-serif;
-		font-size: 14px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 14px;
 }
+
 .resume-body .resume-settings .item.exo {
-font-family: 'Exo', sans-serif;
-		font-size: 14px;
+	font-family: 'Exo', sans-serif;
+	font-size: 14px;
 }
+
 .resume-body .resume-settings .item.cairo {
-font-family: 'Cairo', sans-serif;
-		font-size: 14px;
+	font-family: 'Cairo', sans-serif;
+	font-size: 14px;
 }
+
 /*------------------------*/
