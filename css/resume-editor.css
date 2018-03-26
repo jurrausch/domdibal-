@@ -300,11 +300,39 @@ Resume Editor
 	font-size: 36px;
 	padding-bottom: 10px;
 	color: #0C7ACF;
+	font-weight: 300;
 }
 .cv-content_container .close.icon {
 	float: right;
 	cursor: pointer;
 }
+
+.cv-column:hover .overlay {
+	display: block;
+}
+
+.overlay {
+	display: none;
+}
+
+.cv-column .overlay-content {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #ffffffd1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.overlay-content .btn.blue {
+	font-size: 14px;
+	padding: 1rem 2rem;
+	text-transform: capitalize;
+}
+
 /* Color Selector start here */
 
 .color_picker_dialog p {
