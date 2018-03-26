@@ -281,12 +281,6 @@ Resume Editor
 	padding: 1rem 2rem;
 }
 
-.ui.open-cv.fullscreen.modal {
-		background: none !important;
-    border: none;
-	box-shadow: none !important;
- 
-}
 .cv-content_container {
 	background: #fff;
 	border-radius: 10px;
