@@ -90,7 +90,7 @@ header .ui.secondary.pointing.menu {
 }
 
 .resume-body .resume-settings .customer-design {
-	width: 290px;
+	width: 420px;
 	margin: 0 auto;
 }
 
@@ -179,13 +179,15 @@ Resume Editor
 
 .left-description .ui.vertical.tabular.menu .tab-menu .item img {
 	float: left;
-	margin-right: 15px;
+	margin-right: 10px;
 }
 
 .ui.vertical.tabular.menu .item {
 	border: none;
 	box-shadow: none;
 	padding-bottom: 20px;
+	display: flex;
+	align-items: center;
 }
 
 .ui.vertical.tabular.menu .active.item {
@@ -239,6 +241,70 @@ Resume Editor
 	margin-top: 15px;
 }
 
+.choose-content {
+	text-align: center;
+	border-radius: 25px !important;
+	background-color: #fff;
+	box-shadow: 0 7px 17px 0 rgba(235, 233, 233, 0.50);
+	border-radius: 10px;
+	padding-bottom: 70px;
+}
+
+.cv-column{
+	box-shadow: 0 7px 17px 0 rgba(235, 233, 233, 0.50);
+	border-radius: 20px;
+	position: relative;
+}
+
+.cv-columnhover .overlay {
+	display: block;
+}
+
+.overlay {
+	display: none;
+}
+
+.cv-column .overlay-content {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #ffffffd1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.overlay-content .btn.blue {
+	font-size: 14px;
+	padding: 1rem 2rem;
+}
+
+.ui.open-cv.fullscreen.modal {
+		background: none !important;
+    border: none;
+	box-shadow: none !important;
+ 
+}
+.cv-content_container {
+	background: #fff;
+	border-radius: 10px;
+	padding: 30px;
+}
+.cv-content_container .cv-header {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.cv-content_container .cv-header h1 {
+	font-size: 36px;
+	padding-bottom: 10px;
+	color: #0C7ACF;
+}
+.cv-content_container .close.icon {
+	float: right;
+	cursor: pointer;
+}
 /* Color Selector start here */
 
 .color_picker_dialog p {

@@ -2,38 +2,40 @@ $('.ui.dropdown')
 	.dropdown();
 
 $('.ui.accordion')
-  .accordion()
-;
+	.accordion();
 
 
 $('.ui.rating')
-  .rating()
-;
+	.rating();
 // Modal Function 
-$(".border-btn").click(function() {
+$(".border-btn").click(function () {
 	$('.ui.modal').modal('show');
 });
 
 // delete Account
-$(".del-account").click(function() {
-$('.del-modal').modal({
-    inverted: true
-  })
-  .modal('show');
+$(".del-account").click(function () {
+	$('.del-modal').modal({
+			inverted: true
+		})
+		.modal('show');
 });
 
 
 // Open Overlay add payment
-$(".bill-con.addy").click(function() {
+$(".bill-con.addy").click(function () {
 	$('.ui.modal').modal('show');
 });
 
 // add new section CV editor
-$(".add-sect.new").click(function() {
+$(".add-sect.new").click(function () {
 	$('.ui.new_section.modal').modal('show');
 });
 
 //tab menu
 $('.menu .item')
-  .tab()
-;
+	.tab();
+
+// CV Modal
+$(".modal-cv").click(function () {
+	$('.ui.open-cv.modal').modal('show');
+});
