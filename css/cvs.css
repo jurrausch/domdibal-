@@ -251,7 +251,7 @@ header .ui.secondary.pointing.menu {
 }
 
 .btn {
-	padding: 1rem 5rem;
+	padding: 15px 30px;
 	border-radius: 5px;
 	text-transform: uppercase;
 	color: #0C7ACF;
