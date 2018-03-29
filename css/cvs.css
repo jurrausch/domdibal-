@@ -471,6 +471,18 @@ header .ui.secondary.pointing.menu {
 .welcome-content p {
 	margin-bottom: 40px;
 }
+.welcome-content.signature h1 {
+	font-size: 44px;
+	font-weight: 300;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.welcome-content.signature .ui.fluid.selection.dropdown {
+width: 60% !important;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
 
 /*-------- upload----*/
 
