@@ -122,7 +122,7 @@ header .ui.secondary.pointing.menu {
 	text-align: center;
 	padding-top: 25px;
 	padding-bottom: 25px;
-	position: fixed; 
+	position: fixed;
 	top: 0;
 	width: 100%;
 	z-index: 11;
@@ -176,6 +176,69 @@ header .ui.secondary.pointing.menu {
 	border-radius: 10px;
 	padding-bottom: 70px;
 }
+
+.ui.small.modal {
+	width: 510px;
+	left: 60%;
+}
+
+.ui.small.modal .im-header {
+	text-align: center;
+}
+
+.ui.small.modal .im-header h2 {
+	font-size: 36px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-weight: 300;
+}
+
+.ui.small.modal .im-header p {
+	padding-bottom: 10px;
+}
+
+.ui.small.modal .import-place {
+	text-align: center;
+}
+
+.ui.small.modal .import-place .i-btn {
+	background: #0d201f;
+	padding: 15px;
+	display: inline-block;
+	width: 80%;
+	border-radius: 10px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	font-size: 22px;
+	color: #fff;
+	text-align: left;
+	cursor: pointer;
+
+}
+
+.ui.small.modal .import-place .i-btn img {
+	display: inline-block;
+	margin-right: 10px
+}
+
+.ui.small.modal .import-place .i-btn.linkedin {
+	background: #0077B7;
+}
+
+.ui.small.modal .import-place .i-btn.xing {
+	background: #00605E;
+}
+
+.ui.small.modal .import-place .i-btn.dropbox {
+	background: #1587EA;
+}
+
+.ui.small.modal .import-place .i-btn.computer {
+	background: #FE7B04;
+	margin-bottom: 30px;
+}
+
+
 
 .art-content {
 	box-shadow: 0 7px 17px 0 rgba(235, 233, 233, 0.50);
@@ -420,33 +483,42 @@ header .ui.secondary.pointing.menu {
 	text-transform: uppercase;
 	font-weight: 300;
 }
+
 .billing-information .billing-basic p {
 	padding-bottom: 15px;
-		color: rgba(255,255,255,0.5);
+	color: rgba(255, 255, 255, 0.5);
 	font-weight: 300;
 }
-.billing-information .billing-basic p span{
+
+.billing-information .billing-basic p span {
 	float: right;
-	color: rgba(255,255,255,0.5);
-		font-weight: 300;
+	color: rgba(255, 255, 255, 0.5);
+	font-weight: 300;
 }
-.billing-information .billing-basic .billing.total{
+
+.billing-information .billing-basic .billing.total {
 	color: #fff;
-	font-size: 20px
-			font-weight: 300;
+	font-size: 20px font-weight: 300;
 }
-.billing-information .billing-basic .billing.total span{
+
+.billing-information .billing-basic .billing.total span {
 	color: #fff;
 	font-size: 20px;
-		font-weight: 300;
+	font-weight: 300;
 }
+
 .billing-information .billing-garentie img {
 	margin: 0 auto;
 	margin-top: 30px;
 }
+
 .billing-btn {
 	padding-top: 30px;
 
+}
+
+.open-cv-modal {
+	cursor: pointer;
 }
 
 .welcome-content {
@@ -471,14 +543,16 @@ header .ui.secondary.pointing.menu {
 .welcome-content p {
 	margin-bottom: 40px;
 }
+
 .welcome-content.signature h1 {
 	font-size: 44px;
 	font-weight: 300;
 	padding-top: 20px;
 	padding-bottom: 10px;
 }
+
 .welcome-content.signature .ui.fluid.selection.dropdown {
-width: 60% !important;
+	width: 60% !important;
 	margin: 0 auto;
 	margin-bottom: 30px;
 }

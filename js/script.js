@@ -45,4 +45,11 @@ $(function(){
 		$('.ui.modal').hide();
 	});
 	
+	// open import modal
+		$(".open-cv-modal").click(function () {
+		$('.ui.small.modal').modal('show');
+	});	
+	// lik act as a file input 
+
+	
 }); // JQuery
