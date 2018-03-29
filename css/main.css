@@ -218,12 +218,6 @@ body {
 	padding: 30px;
 }
 
-.search-section .ui.selection.dropdown .menu .item .job-counting {
-	float: right;
-	font-weight: 200;
-
-}
-
 .jobs-list .description .skills .ui.button {
 	font-size: 9px;
 	padding-left: 5px 10px;
