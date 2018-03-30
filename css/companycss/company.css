@@ -541,7 +541,7 @@ tbody .ui.teal.buttons .ellipsis.horizontal.icon {
 	height: 100%;
 	text-align: center;
 	vertical-align: middle;
-	background-color: rgba(160, 160, 160, 0.85);
+	background-color: rgba(0, 0, 0, .85);
 	opacity: 0;
 	line-height: 1;
 	-webkit-animation-fill-mode: both;
@@ -661,83 +661,163 @@ tbody .ui.teal.buttons .ellipsis.horizontal.icon {
 	border-radius: 10px;
 	padding: 30px;
 	margin-bottom: 30px;
-	    box-shadow: 0 7px 17px 0 rgba(235, 233, 233, 0.50);
+	box-shadow: 0 7px 17px 0 rgba(235, 233, 233, 0.50);
 }
+
 .talent-cv .box-item .box-header {
 	display: flex;
-    align-items: center;
+	align-items: center;
 }
+
 .talent-cv .box-item .box-header img {
 	display: inline-block;
 	margin-right: 15px;
 }
+
 .talent-cv .box-item .box-header h2 {
 	display: inline-block;
 	font-size: 26px;
 	color: #0d79cf;
 	font-weight: 400;
 }
-.talent-cv .box-item  .box-description {
+
+.talent-cv .box-item .box-description {
 	padding-top: 10px;
 	padding-left: 45px;
 	margin-bottom: 20px;
 }
-.talent-cv .box-item  .box-description .work-title {
+
+.talent-cv .box-item .box-description .work-title {
 	font-size: 18px;
 	font-weight: 500;
 }
-.talent-cv .box-item  .box-description .work-location  {
+
+.talent-cv .box-item .box-description .work-location {
 	font-weight: 300;
 	font-size: 16px;
 }
-.talent-cv .box-item  .box-description .work-description {
+
+.talent-cv .box-item .box-description .work-description {
 	padding-top: 10px;
 	max-width: 750px;
 	font-weight: 400;
 }
-.simular{
+
+.simular {
 	background: #fff;
 	border-radius: 10px;
-	 box-shadow: 0 7px 17px 0 rgba(235, 233, 233, 0.50);
+	box-shadow: 0 7px 17px 0 rgba(235, 233, 233, 0.50);
 }
+
 .simular .item .header {
 	margin-bottom: -5px !important;
 }
+
 .simular .simular-header {
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	padding: 10px;
-	background: #0d79cf;;
+	background: #0d79cf;
 }
+
 .simular .simular-header h3 {
 	color: #fff;
 	font-weight: 400;
 }
+
 .simular .simular-talents {
 	padding: 10px;
 }
+
 .simular .item .image {
 	width: 50px !important;
 }
+
 .simular .item .image img {
 	border-radius: 100% !important;
 }
-.simular .item  h2, .lastname {
+
+.simular .item h2,
+.lastname {
 	font-size: 14px;
 	font-weight: 500;
 }
+
+.simular .item .lastname {
+	color: #0d79cf;
+	;
+	;
+}
+
 .simular .item .talent-title {
 	font-size: 10px;
 	font-weight: 400;
 }
+
 .simular .item .extra p {
 	font-size: 10px;
 	padding-bottom: 5px;
 	font-weight: 400;
 }
+
 .simular .item .content {
 	padding-left: 10px !important;
 }
+
 .simular .item .extra {
 	border-bottom: 1px solid #73737324;
+}
+
+.ui.small.open-message.modal {
+	width: 570px;
+	left: 55%;
+}
+
+.ui.small.open-message.modal .message-container {
+	padding: 30px;
+
+}
+
+.ui.small.open-message.modal .message-container .message-header {
+	margin-bottom: 30px;
+}
+
+.ui.small.open-message.modal .message-container .item .image {
+	width: 70px !important;
+}
+
+.ui.small.open-message.modal .message-container .item .image img {
+	border-radius: 100%;
+}
+
+..ui.small.open-message.modal.message-container .item .content {
+	margin-left: -10px !important;
+}
+
+.ui.small.open-message.modal .message-container .item .content h2,
+.lastnamy {
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.ui.small.open-message.modal .message-container .item .content .lastnamy {
+	color: #0d79cf;
+	;
+}
+
+.ui.small.open-message.modal .message-container .item .content .talent-title {
+	font-weight: 400;
+}
+
+.ui.small.open-message.modal .message-send {
+	margin-top: 30px;
+	text-align: center;
+	background: #0e78d0;
+	padding: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.ui.small.open-message.modal .message-send .invitation {
+	font-size: 20px;
+	color: #fff;
 }

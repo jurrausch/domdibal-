@@ -49,7 +49,12 @@ $(function(){
 		$(".open-cv-modal").click(function () {
 		$('.ui.small.modal').modal('show');
 	});	
-	// lik act as a file input 
+	// open message modal 
+	
+		$(".contact-me").click(function () {
+		$('.ui.small.open-message.modal').modal('show');
+	});	
+	// lik act as a file input
 
 	
 }); // JQuery
