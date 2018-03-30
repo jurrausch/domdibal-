@@ -278,14 +278,17 @@ tbody .ui.teal.buttons .ellipsis.horizontal.icon {
 	box-shadow: 0 7px 17px 0 rgba(235, 233, 233, 0.50);
 	border-radius: 10px;
 }
-.settings .add-bill  .bill-con .payment-status {
-margin-top: 80px;
+
+.settings .add-bill .bill-con .payment-status {
+	margin-top: 80px;
 }
-.settings .add-bill  .bill-con .payment-status i {
+
+.settings .add-bill .bill-con .payment-status i {
 	font-size: 14px;
 	color: #47d1cc;
 	font-weight: 700;
 }
+
 .settings .add-bill .ui.horizontal.list .bill-con.addy {
 	border-color: rgba(106, 97, 97, .6);
 
@@ -468,28 +471,31 @@ margin-top: 80px;
 .empl-city p {
 	padding-left: 10px;
 }
+
 /* payment modal */
+
 .ui.payment_modal.modal {
-	    display: none;
-    position: fixed;
-    z-index: 1001;
-    top: 40%;
-    left: 60%;
-    text-align: left;
-    background: #fff;
-    border: none;
-    box-shadow: 1px 3px 3px 0 rgba(0,0,0,.2), 1px 3px 15px 2px rgba(0,0,0,.2);
-    -webkit-transform-origin: 50% 25%;
-    transform-origin: 50% 25%;
-    border-radius: .28571429rem;
-    -webkit-user-select: text;
-    -moz-user-select: text;
-    -ms-user-select: text;
-    user-select: text;
-    will-change: top,left,margin,transform,opacity;
-	 width: 550px;
+	display: none;
+	position: fixed;
+	z-index: 1001;
+	top: 40%;
+	left: 60%;
+	text-align: left;
+	background: #fff;
+	border: none;
+	box-shadow: 1px 3px 3px 0 rgba(0, 0, 0, .2), 1px 3px 15px 2px rgba(0, 0, 0, .2);
+	-webkit-transform-origin: 50% 25%;
+	transform-origin: 50% 25%;
+	border-radius: .28571429rem;
+	-webkit-user-select: text;
+	-moz-user-select: text;
+	-ms-user-select: text;
+	user-select: text;
+	will-change: top, left, margin, transform, opacity;
+	width: 550px;
 }
-.ui.payment_modal.modal .header{
+
+.ui.payment_modal.modal .header {
 	background: #0C7ACF;
 }
 
@@ -498,71 +504,240 @@ margin-top: 80px;
 	color: #fff;
 	font-weight: 400;
 }
-.ui.payment_modal.modal .payment-description{
+
+.ui.payment_modal.modal .payment-description {
 	padding: 30px;
 }
+
 .ui.payment_modal.modal .ui.radio.checkbox {
 	padding-bottom: 20px;
 }
-.ui.payment_modal.modal .ui.form .btn.blue{
+
+.ui.payment_modal.modal .ui.form .btn.blue {
 	text-transform: capitalize;
 	padding: 10px 25px;
 	border-radius: 5px;
 }
+
 .ui.payment_modal.modal .ui.form .field img {
 	float: right;
 	margin-bottom: 4px;
 }
+
 .ui.payment_modal.modal .ui.form .field label .quest {
 	float: right;
-    padding-right: 10px;
-    font-weight: 700;
-    color: #0d79cf;
-		cursor: pointer;
+	padding-right: 10px;
+	font-weight: 700;
+	color: #0d79cf;
+	cursor: pointer;
 }
+
 .ui.dimmer {
-    display: none;
-    position: absolute;
-    top: 0!important;
-    left: 0!important;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    vertical-align: middle;
-    background-color: rgba(160, 160, 160, 0.85);
-    opacity: 0;
-    line-height: 1;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    -webkit-animation-duration: .5s;
-    animation-duration: .5s;
-    -webkit-transition: background-color .5s linear;
-    transition: background-color .5s linear;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    will-change: opacity;
-    z-index: 1000;
+	display: none;
+	position: absolute;
+	top: 0!important;
+	left: 0!important;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	vertical-align: middle;
+	background-color: rgba(160, 160, 160, 0.85);
+	opacity: 0;
+	line-height: 1;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-duration: .5s;
+	animation-duration: .5s;
+	-webkit-transition: background-color .5s linear;
+	transition: background-color .5s linear;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	will-change: opacity;
+	z-index: 1000;
 }
+
 .ui.modal .pay_with_p {
-	  padding: 10px 20px;
-    background: #f3f3f378;
+	padding: 10px 20px;
+	background: #f3f3f378;
 	margin-top: 10px;
 }
+
 .ui.modal .pay_with_p .paypal-content {
 	margin-bottom: 15px;
 	display: none;
 
 }
+
 .ui.modal .pay_with_p .paypal-content p {
 	padding-bottom: 20px;
 }
+
 .ui.modal .pay_with_p .paypal-content .btn.blue {
 	text-transform: capitalize;
 }
+
 .ui.modal .pay_with_p .paypal-content .btn.blue .big-paypal {
 	color: #fff;
 	font-size: 20px;
 	font-weight: 700;
+}
+
+/*------------- talent profile ----------------------*/
+
+.talent-profile {
+	height: 300px;
+	background: url('../../images/backgrounds/talent-bg.png') 50% no-repeat;
+	background-size: 100% 100%;
+}
+
+.talent-container {
+	background: #fff;
+	margin-right: 150px;
+	margin-left: 150px;
+	padding: 40px;
+	background: #fff;
+	margin-top: -240px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+
+}
+
+.talent-container .item img {
+	border-radius: 100% !important;
+
+}
+
+.talent-container .header h2 {
+	font-size: 36px;
+}
+
+.talent-container .header h2 span {
+	color: #0d79cf;
+	font-size: 36;
+}
+
+.talent-container .header p {
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.talent-container .extra p {
+	max-width: 700;
+	font-weight: 400;
+	padding-bottom: 30px;
+}
+
+.talent-container .extra .talent-btn {
+	margin-top: 30px;
+}
+
+.talent-container .btn.blue {
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+
+.talent-container .btn.blue.save {
+	background: #fff;
+	border: 1px solid #0c7acf;
+	color: 0c7acf;
+	margin-left: 15px;
+}
+
+.talent-container .ui.teal.buttons .button {
+	height: 40px;
+	background: #fff !important;
+}
+
+.talent-cv {
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 30px;
+}
+
+.talent-cv .box-item {
+	background: #fff;
+	border-radius: 10px;
+	padding: 30px;
+	margin-bottom: 30px;
+	    box-shadow: 0 7px 17px 0 rgba(235, 233, 233, 0.50);
+}
+.talent-cv .box-item .box-header {
+	display: flex;
+    align-items: center;
+}
+.talent-cv .box-item .box-header img {
+	display: inline-block;
+	margin-right: 15px;
+}
+.talent-cv .box-item .box-header h2 {
+	display: inline-block;
+	font-size: 26px;
+	color: #0d79cf;
+	font-weight: 400;
+}
+.talent-cv .box-item  .box-description {
+	padding-top: 10px;
+	padding-left: 45px;
+	margin-bottom: 20px;
+}
+.talent-cv .box-item  .box-description .work-title {
+	font-size: 18px;
+	font-weight: 500;
+}
+.talent-cv .box-item  .box-description .work-location  {
+	font-weight: 300;
+	font-size: 16px;
+}
+.talent-cv .box-item  .box-description .work-description {
+	padding-top: 10px;
+	max-width: 750px;
+	font-weight: 400;
+}
+.simular{
+	background: #fff;
+	border-radius: 10px;
+	 box-shadow: 0 7px 17px 0 rgba(235, 233, 233, 0.50);
+}
+.simular .item .header {
+	margin-bottom: -5px !important;
+}
+.simular .simular-header {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding: 10px;
+	background: #0d79cf;;
+}
+.simular .simular-header h3 {
+	color: #fff;
+	font-weight: 400;
+}
+.simular .simular-talents {
+	padding: 10px;
+}
+.simular .item .image {
+	width: 50px !important;
+}
+.simular .item .image img {
+	border-radius: 100% !important;
+}
+.simular .item  h2, .lastname {
+	font-size: 14px;
+	font-weight: 500;
+}
+.simular .item .talent-title {
+	font-size: 10px;
+	font-weight: 400;
+}
+.simular .item .extra p {
+	font-size: 10px;
+	padding-bottom: 5px;
+	font-weight: 400;
+}
+.simular .item .content {
+	padding-left: 10px !important;
+}
+.simular .item .extra {
+	border-bottom: 1px solid #73737324;
 }
