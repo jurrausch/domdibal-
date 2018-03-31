@@ -734,14 +734,14 @@ tbody .ui.teal.buttons .ellipsis.horizontal.icon {
 	display: block;
 }
 .box-description .accom-left .ui.horizontal.bulleted.list {
-	max-width: 750px;
+	max-width: 810px;
 }
 .box-description .accom-left {
 	margin-bottom: 30px;
 }
 .box-description .accom-left {
 	display: flex;
-	align-items: flex-end;
+	align-items: flex-start;
 }
 .box-description .accom-left h2 {
 	font-size: 46px;
