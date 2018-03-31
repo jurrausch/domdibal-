@@ -53,6 +53,7 @@ $(function(){
 	
 		$(".contact-me").click(function () {
 		$('.ui.small.open-message.modal').modal('show');
+			
 	});	
 	// lik act as a file input
 

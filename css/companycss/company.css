@@ -604,11 +604,6 @@ tbody .ui.teal.buttons .ellipsis.horizontal.icon {
 
 }
 
-.talent-container .item img {
-	border-radius: 100% !important;
-
-}
-
 .talent-container .header h2 {
 	font-size: 36px;
 }
@@ -624,7 +619,7 @@ tbody .ui.teal.buttons .ellipsis.horizontal.icon {
 }
 
 .talent-container .extra p {
-	max-width: 700;
+	max-width: 750px;
 	font-weight: 400;
 	padding-bottom: 30px;
 }
@@ -701,6 +696,76 @@ tbody .ui.teal.buttons .ellipsis.horizontal.icon {
 	padding-top: 10px;
 	max-width: 750px;
 	font-weight: 400;
+}
+
+
+.box-description .portfolio-overlay {
+	display: none;
+}
+
+.box-description .portfolio-overlay .portfolio-o-container {
+	background: #0d79cf;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.portfolio-image {
+	position: relative;
+}
+
+.portfolio-overlay .portfolio-o-container .port-title {
+	color: #fff;
+	font-weight: 400;
+	font-size: 20px;
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.box-description .portfolio-image:hover .portfolio-overlay {
+	display: block;
+}
+.box-description .accom-left .ui.horizontal.bulleted.list {
+	max-width: 750px;
+}
+.box-description .accom-left {
+	margin-bottom: 30px;
+}
+.box-description .accom-left {
+	display: flex;
+	align-items: flex-end;
+}
+.box-description .accom-left h2 {
+	font-size: 46px;
+	padding-right: 20px;
+	color: #0d79cf;
+	font-weight: 400;
+}
+
+.box-description .accom-left h3 {
+	font-size: 25px;
+	font-weight: 400;
+	padding-bottom: 5px;
+}
+.box-description .tl-skills {
+	display: inline-block;
+	max-width: 850px;
+}
+.box-description .tl-skills .tl-skills-item {
+	padding: 5px 10px;
+    border-radius: 5px;
+    background: #E0E0E0;
+    display: inline-block;
+    margin-right: 5px;
+	margin-top: 10px;
 }
 
 .simular {
@@ -817,6 +882,7 @@ tbody .ui.teal.buttons .ellipsis.horizontal.icon {
 	border-radius: 10px;
 	cursor: pointer;
 }
+
 .ui.small.open-message.modal .message-send .invitation {
 	font-size: 20px;
 	color: #fff;
