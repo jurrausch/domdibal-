@@ -788,14 +788,16 @@ tbody .ui.teal.buttons .ellipsis.horizontal.icon {
 .simular .simular-header h3 {
 	color: #fff;
 	font-weight: 400;
+	font-size: 20px;
+    padding-left: 10px;
 }
 
 .simular .simular-talents {
-	padding: 10px;
+	padding: 20px;
 }
 
 .simular .item .image {
-	width: 50px !important;
+	width: 60px !important;
 }
 
 .simular .item .image img {
@@ -804,18 +806,16 @@ tbody .ui.teal.buttons .ellipsis.horizontal.icon {
 
 .simular .item h2,
 .lastname {
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 500;
 }
 
 .simular .item .lastname {
 	color: #0d79cf;
-	;
-	;
 }
 
 .simular .item .talent-title {
-	font-size: 10px;
+	font-size: 14px;
 	font-weight: 400;
 }
 
@@ -831,6 +831,12 @@ tbody .ui.teal.buttons .ellipsis.horizontal.icon {
 
 .simular .item .extra {
 	border-bottom: 1px solid #73737324;
+}
+
+.simular .item .extra  .empl-location {
+	font-size: 12px;
+	padding-left: 5px;
+	padding-bottom: 0;
 }
 
 .ui.small.open-message.modal {
