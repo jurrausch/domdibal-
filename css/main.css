@@ -584,3 +584,134 @@ body {
 }
 
 /*-----------------job information--------------*/
+
+.job-bg-section {
+	height: 300px;
+	background: url('../images/backgrounds/talent-bg.png') 50% no-repeat;
+	background-size: 100% 100%;
+}
+.details-information-container {
+	margin-right: 150px;
+	margin-left: 150px;
+	padding: 40px;
+	background: #fff;
+	margin-top: -240px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+
+}
+.information-content .header h2 {
+	font-size: 36px;
+	max-width: 800px;
+	font-weight: 300;
+}
+.information-content .extra .comp-descript {
+	max-width: 800px;
+	padding-bottom: 30px;
+}
+.information-content .btn.blue {
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+.information-content .btn.blue.save {
+	    background: #fff;
+    border: 1px solid #0c7acf;
+    color: 0c7acf;
+    margin-left: 15px;
+}
+.information-content .ui.teal.buttons .button{
+	height: 40px;
+	background: #fff !important;
+}
+.information-content  .compan-location img, .city-name {
+	display: inline-block;
+}
+.information-content  .compan-location img {
+	width: 15px;
+}
+.job-description-information {
+	margin-right: 150px;
+	margin-left: 150px;
+	margin-bottom: 30px;
+}
+.job-description-information .job-details-info-container {
+	background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 7px 17px 0 rgba(235, 233, 233, 0.50);
+}
+.job-description-information .job-details-info-container .details-header {
+	display: flex;
+	align-items: center;
+}
+.job-description-information .job-details-info-container .details-header img {
+	display: inline-block;
+	margin-right: 15px;
+}
+.job-description-information .job-details-info-container .details-header h2 {
+	font-size: 26px;
+	color: #0d79cf;
+	font-weight: 400;
+}
+.job-description-information .job-details-info-container .jb-description {
+	display: inline-block;
+	max-width: 850px;
+	padding-top: 10px;
+    padding-left: 45px;
+    margin-bottom: 20px
+}
+.job-description-information .job-details-info-container .jb-description .jb-skills-item {
+	padding: 5px 10px;
+    border-radius: 5px;
+    background: #E0E0E0;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 10px
+}
+.simular-jobs {
+		background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 7px 17px 0 rgba(235, 233, 233, 0.50);
+
+}
+.simular-jobs .simular-jobs-header{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    background: #0d79cf;
+}
+.simular-jobs .simular-jobs-header h2 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.simular-jobs-posting {
+	padding: 20px;
+}
+.simular-jobs-posting  .item {
+	padding-bottom: 20px;
+}
+.simular-jobs-posting  .image{
+	width: 60px !important;
+} 
+.simular-jobs-posting .header a {
+	font-size: 12px;
+	font-weight: 500;
+	padding-bottom: 5px;
+}
+.simular-jobs-posting .header .comp-name {
+	font-size: 10px;
+	font-weight: 400;
+}
+.simular-jobs-posting  .extra.job {
+	border-bottom: 1px solid #f7f7f7;
+}
+.simular-jobs-posting  .extra.job img, .empl-location {
+	display: inline-block;
+	
+}
+.simular-jobs-posting  .extra.job p {
+	font-size: 12px;
+}
